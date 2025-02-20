@@ -1,0 +1,41 @@
+<html lang="en">
+
+<body>
+    <link rel="stylesheet" href="style.css">
+
+
+<img src="sun.png " alt="" id="img">
+
+<div class="bc">
+
+<button class="button" onclick="changeSun()">sun</button>
+
+<button class="button" onclick="changeMoon()">moon</button>
+
+</div>
+
+<script>
+
+let x = document.getElementById("img");
+
+function changeMoon() {
+
+x.src="moon.png";
+
+document.body.style.background = "black"
+
+}
+
+function changeSun() {
+
+x.src="sun.png";
+
+document.body.style.background = "white"
+
+}
+
+</script>
+
+</body>
+
+</html>
