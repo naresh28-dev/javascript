@@ -11,8 +11,6 @@ d.textContent = "click"
 document.body.appendChild(d);
 document.body.appendChild(h1Ele)
 
-d.onclick=changeText();
-
-function changeText(){
+d.onclick=function changeText(){
     h1Ele.textContent="KLU "
 }
